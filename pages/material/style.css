@@ -1,0 +1,22 @@
+#material{
+    padding-top: 50px;
+}
+
+.img-info{
+    display: flex;
+    gap: 110px;
+    padding-top: 60px;
+    flex-wrap: wrap;
+}
+
+.img-desc h3{
+    padding-bottom: 90px;
+    padding-top: 20px;
+    color: #1D1D1B;
+    font-size: 32px;
+}
+
+.img-desc p{
+    color: #1D1D1B;
+    padding-bottom: 60px;
+}

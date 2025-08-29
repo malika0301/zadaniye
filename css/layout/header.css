@@ -1,0 +1,40 @@
+header {
+    background-color: white;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    gap: 91px;
+    
+}
+.navbar-menus {
+    display: flex;
+    align-items: center;
+    gap: 58px;
+}
+
+.navbar-menus li a {
+    color: #000;
+}
+
+.navbar-img {
+    display: none;
+}
+
+@media (max-width:1110px) {
+    .navbar-img {
+        display: inline-block;
+    }
+
+    .navbar{
+        justify-content: space-between;
+    }
+
+    .navbar-menus {
+        display: none;
+    }
+}

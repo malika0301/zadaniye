@@ -1,0 +1,12 @@
+@import url("./base/common.css");
+@import url("./container.css/container.css");
+@import url("./layout/header.css");
+@import url("./layout/hero.css");
+@import url("./layout/footer.css");
+@import url("./layout/static.css");
+@import url("./layout/material.css");
+@import url("./layout/about.css");
+@import url("./layout/question.css");
+@import url("./layout/delivery.css");
+@import url("../pages/material/style.css");
+@import url("../pages/xizmat/style.css");

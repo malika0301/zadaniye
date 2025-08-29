@@ -1,0 +1,146 @@
+#map {
+    padding-bottom: 40px;
+}
+
+.map-cardss {
+    padding-top: 20px;
+}
+
+.map-cardss h1 {
+    font-size: 42px;
+    margin-bottom: 20px;
+}
+
+.map-cardss p {
+    font-weight: 400px;
+    font-size: 20px;
+    line-height: 140%;
+    letter-spacing: 0%;
+
+}
+
+.map-cards {
+    margin-top: 40px;
+}
+
+.map-card {
+    margin-top: 15px;
+    display: flex;
+    text-align: center;
+    gap: 15px;
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.map-card p {
+    text-align: center;
+    font-size: 14px;
+}
+
+.img {
+    max-width: 680px;
+    height: 780px;
+    margin-left: 10px;
+}
+
+.maps {
+    display: flex;
+    text-align: center;
+}
+
+.map-pages {
+    display: flex;
+    padding-top: 178px;
+    gap: 20px;
+
+}
+
+.map-pages p {
+    padding-top: 24px;
+}
+
+.map-pages h2 {
+    font-size: bold;
+    padding-top: 71px;
+}
+
+.map-page {
+    background-color: #F8F8F8;
+    border-radius: 15px;
+    width: 330px;
+    height: 210px;
+
+}
+
+@media (max-width:1110px) {
+    .maps {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .img{
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .map-cards {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .map-pages{
+        justify-content: center;
+    }
+}
+
+@media (max-width:832px) {
+
+    .map-card,
+    .map-pages,
+    .map-cardss,
+    .maps {
+        align-items: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+
+    }
+
+    .map-img {
+        flex-wrap: wrap;
+        max-width: 375;
+        height: 387px;
+        align-items: center;
+        margin-left: -300px;
+        padding-top: 20px;
+        text-align: center;
+    }
+}
+
+@media (max-width:914) {
+    .map-img {
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+        max-width: 375px;
+        height: 387px;
+        justify-content: center;
+        padding-top: 20px;
+        text-align: center;
+
+
+    }
+
+    .map-pages,
+    .maps {
+        align-items: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+}
